@@ -13,7 +13,7 @@ body {
     background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url('images for portfolio/pexels-adrien-olichon-1257089-2387793.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y; /* This repeats the image vertically */
     font-family: 'Times New Roman', Times, serif;
 }
 
