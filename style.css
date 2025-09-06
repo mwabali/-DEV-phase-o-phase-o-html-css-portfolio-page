@@ -22,3 +22,30 @@ body{
     align-items: center;
     padding: 35px;
 }
+.logo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center ;
+    color: #fff;
+}
