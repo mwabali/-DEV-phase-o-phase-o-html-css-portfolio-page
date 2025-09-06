@@ -30,6 +30,14 @@ body{
     border-radius: 50%;
     object-fit: cover;
 }
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 
 .navbar ul li{
     list-style: none;
