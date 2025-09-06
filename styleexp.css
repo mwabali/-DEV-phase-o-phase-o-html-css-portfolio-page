@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+
+}
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url('images for portfolio/pexels-adrien-olichon-1257089-2387793.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    width:100%;
+}
+.navbar{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    font-family:'Dancing Script', cursive;
+
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center ;
+    color: #fff;
+
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    font-family:'Dancing Script', cursive;
+
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
