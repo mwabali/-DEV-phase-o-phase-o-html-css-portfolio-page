@@ -8,5 +8,17 @@ body{
 
 }
 .banner{
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('images for portfolio/pexels-adrien-olichon-1257089-2387793.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url('images for portfolio/pexels-adrien-olichon-1257089-2387793.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    width:100%;
+}
+.navbar{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
 }
